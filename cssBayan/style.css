@@ -33,13 +33,7 @@ h2 {
   font-size: 4vmax;
 }
 
-.wrapper:hover h2 {
-  color: black;
-}
 
-.wrapper:hover .svg {
-  display: block;
-}
 .img-div {
   transition: opacity 1s ease-out;
   transition-property: all;
@@ -61,6 +55,10 @@ a {
   opacity: 1;
 }
 
+#first:target h2{
+  color: black;
+}
+
 #first:target .svg {
   transform: rotate(45deg);
 }
@@ -76,6 +74,10 @@ a {
   transform: rotate(45deg);
 }
 
+#second:target h2{
+  color: black;
+}
+
 /*  */
 
 #third:target .img-div {
@@ -85,6 +87,10 @@ a {
 
 #third:target .svg {
   transform: rotate(45deg);
+}
+
+#third:target h2{
+  color: black;
 }
 
 /*  */
@@ -98,6 +104,10 @@ a {
   transform: rotate(45deg);
 }
 
+#fourth:target h2{
+  color: black;
+}
+
 /*  */
 
 #fifth:target .img-div {
@@ -109,9 +119,22 @@ a {
   transform: rotate(45deg);
 }
 
+#fifth:target h2{
+  color: black;
+}
+
 /*  */
 
 @media (pointer: fine) {
+
+  .wrapper:hover h2 {
+    color: black;
+  }
+  
+  .wrapper:hover .svg {
+    display: block;
+  }
+
   .first:hover .img-div {
     height: 30vw;
     opacity: 1;
