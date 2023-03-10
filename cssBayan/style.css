@@ -61,6 +61,10 @@ h2 {
     opacity: 1;
   }
 
+  .first:hover .svg {
+    transform: rotate(45deg);
+  }
+
   .second:hover .img-div {
     height: 30vw;
     opacity: 1;
