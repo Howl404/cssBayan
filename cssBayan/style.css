@@ -1,3 +1,8 @@
+body {
+  padding: 2rem;
+  display: grid;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -43,39 +48,36 @@ h2 {
 @media (pointer: fine) {
   .img-div {
     transition: opacity 1s ease-out;
+    transition-property: all;
+    transition-duration: 0.5s;
     opacity: 0;
     height: 0;
     overflow: hidden;
-    display: block;
+    display: flex;
   }
 
   .first:hover .img-div {
     height: 30vw;
-    display: flex;
     opacity: 1;
   }
 
   .second:hover .img-div {
     height: 30vw;
-    display: flex;
     opacity: 1;
   }
 
   .third:hover .img-div {
     height: 30vw;
-    display: flex;
     opacity: 1;
   }
 
   .fourth:hover .img-div {
     height: 30vw;
-    display: flex;
     opacity: 1;
   }
 
   .fifth:hover .img-div {
     height: 30vw;
-    display: flex;
     opacity: 1;
   }
 }
