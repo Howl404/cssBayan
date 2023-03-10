@@ -1,5 +1,5 @@
 body {
-  padding: 2rem;
+  padding: 7.5vw;
   display: grid;
 }
 
@@ -29,12 +29,7 @@ img {
 }
 h2 {
   color: blue;
-}
-
-@media (max-width: 320px) {
-  .img-div {
-    height: 60vw;
-  }
+  font-size: 4vmax;
 }
 
 .wrapper:hover h2 {
@@ -44,18 +39,78 @@ h2 {
 .wrapper:hover .svg {
   display: block;
 }
+.img-div {
+  transition: opacity 1s ease-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+a {
+  min-height: 100%;
+  text-decoration: none;
+}
+/*  */
+
+#first:target .img-div {
+  height: 70vw;
+  opacity: 1;
+}
+
+#first:target .svg {
+  transform: rotate(45deg);
+}
+
+/*  */
+
+#second:target .img-div {
+  height: 70vw;
+  opacity: 1;
+}
+
+#second:target .svg {
+  transform: rotate(45deg);
+}
+
+/*  */
+
+#third:target .img-div {
+  height: 70vw;
+  opacity: 1;
+}
+
+#third:target .svg {
+  transform: rotate(45deg);
+}
+
+/*  */
+
+#fourth:target .img-div {
+  height: 70vw;
+  opacity: 1;
+}
+
+#fourth:target .svg {
+  transform: rotate(45deg);
+}
+
+/*  */
+
+#fifth:target .img-div {
+  height: 70vw;
+  opacity: 1;
+}
+
+#fifth:target .svg {
+  transform: rotate(45deg);
+}
+
+/*  */
 
 @media (pointer: fine) {
-  .img-div {
-    transition: opacity 1s ease-out;
-    transition-property: all;
-    transition-duration: 0.5s;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    display: flex;
-  }
-
   .first:hover .img-div {
     height: 30vw;
     opacity: 1;
@@ -99,5 +154,66 @@ h2 {
 
   .fifth:hover .svg {
     transform: rotate(45deg);
+  }
+
+  /*  */
+
+  #first:target .img-div {
+    height: 30vw;
+    opacity: 1;
+  }
+
+  #first:target .svg {
+    transform: rotate(45deg);
+  }
+
+  /*  */
+
+  #second:target .img-div {
+    height: 30vw;
+    opacity: 1;
+  }
+
+  #second:target .svg {
+    transform: rotate(45deg);
+  }
+
+  /*  */
+
+  #third:target .img-div {
+    height: 30vw;
+    opacity: 1;
+  }
+
+  #third:target .svg {
+    transform: rotate(45deg);
+  }
+
+  /*  */
+
+  #fourth:target .img-div {
+    height: 30vw;
+    opacity: 1;
+  }
+
+  #fourth:target .svg {
+    transform: rotate(45deg);
+  }
+
+  /*  */
+
+  #fifth:target .img-div {
+    height: 30vw;
+    opacity: 1;
+  }
+
+  #fifth:target .svg {
+    transform: rotate(45deg);
+  }
+
+  /*  */
+
+  h2 {
+    font-size: 2.5vmax;
   }
 }
