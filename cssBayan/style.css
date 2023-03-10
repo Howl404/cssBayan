@@ -70,9 +70,17 @@ h2 {
     opacity: 1;
   }
 
+  .second:hover .svg {
+    transform: rotate(45deg);
+  }
+
   .third:hover .img-div {
     height: 30vw;
     opacity: 1;
+  }
+
+  .third:hover .svg {
+    transform: rotate(45deg);
   }
 
   .fourth:hover .img-div {
@@ -80,8 +88,16 @@ h2 {
     opacity: 1;
   }
 
+  .fourth:hover .svg {
+    transform: rotate(45deg);
+  }
+
   .fifth:hover .img-div {
     height: 30vw;
     opacity: 1;
+  }
+
+  .fifth:hover .svg {
+    transform: rotate(45deg);
   }
 }
