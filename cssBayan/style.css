@@ -21,6 +21,7 @@ img {
   height: 1.5rem;
   border: none;
   display: none;
+  transition:.5s ease-in-out
 }
 .name-icon {
   display: flex;
