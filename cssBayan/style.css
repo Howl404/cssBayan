@@ -121,9 +121,10 @@ label {
   cursor: pointer;
 }
 
-@media (min-width: 1920px) and (pointer: fine) {
+
+@media (min-width: 1024px) and (pointer: fine) {
   input:checked + label .img-div {
-    height: 25vw;
+    height: 30vw;
     opacity: 1;
   }
 
@@ -143,7 +144,7 @@ label {
   }
 
   .first:hover .img-div {
-    height: 25vw;
+    height: 30vw;
     opacity: 1;
   }
 
@@ -152,7 +153,7 @@ label {
   }
 
   .second:hover .img-div {
-    height: 25vw;
+    height: 30vw;
     opacity: 1;
   }
 
@@ -161,7 +162,7 @@ label {
   }
 
   .third:hover .img-div {
-    height: 25vw;
+    height: 30vw;
     opacity: 1;
   }
 
@@ -170,7 +171,7 @@ label {
   }
 
   .fourth:hover .img-div {
-    height: 25vw;
+    height: 30vw;
     opacity: 1;
   }
 
@@ -179,7 +180,7 @@ label {
   }
 
   .fifth:hover .img-div {
-    height: 25vw;
+    height: 30vw;
     opacity: 1;
   }
 
@@ -187,6 +188,43 @@ label {
     transform: rotate(45deg);
   }
   h2 {
-    font-size: 1.7vmax;
+    font-size: 3vmax;
   }
 }
+
+@media (min-width: 1920px) and (pointer: fine) {
+  input:checked + label .img-div {
+    height: 25vw;
+    opacity: 1;
+  }
+
+  h2 {
+    font-size: 1.7vmax;
+  }
+
+  .first:hover .img-div {
+    height: 25vw;
+    opacity: 1;
+  }
+
+  .second:hover .img-div {
+    height: 25vw;
+    opacity: 1;
+  }
+
+  .third:hover .img-div {
+    height: 25vw;
+    opacity: 1;
+  }
+
+  .fourth:hover .img-div {
+    height: 25vw;
+    opacity: 1;
+  }
+
+  .fifth:hover .img-div {
+    height: 25vw;
+    opacity: 1;
+  }
+}
+
