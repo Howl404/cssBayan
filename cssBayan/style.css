@@ -80,7 +80,7 @@ input:checked + label h2 {
   }
 
   h2 {
-    font-size: 3vmax;
+    font-size: 3vw;
   }
 }
 
@@ -96,7 +96,7 @@ input:checked + label h2 {
     transform: rotate(45deg);
   }
   h2 {
-    font-size: 3vmax;
+    font-size: 5vw;
   }
 }
 
@@ -188,7 +188,7 @@ label {
     transform: rotate(45deg);
   }
   h2 {
-    font-size: 3vmax;
+    font-size: 2vw;
   }
 }
 
@@ -199,7 +199,7 @@ label {
   }
 
   h2 {
-    font-size: 1.7vmax;
+    font-size: 1.7vw;
   }
 
   .first:hover .img-div {
