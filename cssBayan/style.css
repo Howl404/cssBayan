@@ -190,6 +190,60 @@ label {
   h2 {
     font-size: 2vw;
   }
+
+  .first:active h2{
+    color: blue;
+  }
+
+  .first:active .svg{
+    transition-delay: 1s;
+    filter: brightness(0) saturate(100%);
+    filter: invert(9%) sepia(99%) saturate(5740%) hue-rotate(247deg) brightness(110%) contrast(149%);
+  }
+
+  .second:active h2{
+    color: blue;
+  }
+
+  .second:active .svg{
+    transition-delay: 1s;
+    filter: brightness(0) saturate(100%);
+    filter: invert(9%) sepia(99%) saturate(5740%) hue-rotate(247deg) brightness(110%) contrast(149%);
+  }
+
+  .third:active h2{
+    color: blue;
+  }
+
+  .third:active .svg{
+    transition-delay: 1s;
+    filter: brightness(0) saturate(100%);
+    filter: invert(9%) sepia(99%) saturate(5740%) hue-rotate(247deg) brightness(110%) contrast(149%);
+  }
+
+  .fourth:active h2{
+    color: blue;
+  }
+
+  .fourth:active .svg{
+    transition-delay: 1s;
+    filter: brightness(0) saturate(100%);
+    filter: invert(9%) sepia(99%) saturate(5740%) hue-rotate(247deg) brightness(110%) contrast(149%);
+  }
+
+  .fifth:active h2{
+    color: blue;
+  }
+
+  .fifth:active .svg{
+    transition-delay: 1s;
+    filter: brightness(0) saturate(100%);
+    filter: invert(9%) sepia(99%) saturate(5740%) hue-rotate(247deg) brightness(110%) contrast(149%);
+  }
+}
+
+.svg {
+  filter: blur();
 }
 
 @media (min-width: 1920px) and (pointer: fine) {
